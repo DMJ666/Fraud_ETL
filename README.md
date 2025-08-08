@@ -24,7 +24,7 @@ Ensure you have the following installed:
 
 - Docker
 - Docker Compose
-- Python 3.6+ (only required if you're setting up without Docker)
+- Python 3.9+ (only required if you're setting up without Docker)
 
 ### Steps to Install and Run the Project
 
@@ -32,4 +32,7 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/dmj666/Fraud_ETL.git
    cd Fraud_ETL
+2. Please manually create airflow folders using folder_create.sh prior to running docker-compose. Else airflow will crash.
+3. Two different users are created to separate airflow metadata and generated data.
+4. Create one connection and both airflow(database) and fraud_db will get generated.
 
