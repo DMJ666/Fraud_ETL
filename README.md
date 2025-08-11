@@ -33,6 +33,6 @@ Ensure you have the following installed:
    git clone https://github.com/dmj666/Fraud_ETL.git
    cd Fraud_ETL
 2. Please manually create airflow folders using folder_create.sh prior to running docker-compose. Else airflow will crash.
-3. Two different users are created to separate airflow metadata and generated data.
+3. Two different users are created to separate airflow metadata and generated data there are other ways to do it though.
 4. Create one connection and both airflow(database) and fraud_db will get generated.
 
